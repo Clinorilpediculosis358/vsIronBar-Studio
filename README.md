@@ -1,27 +1,18 @@
-<h1 align="center">vsIronBar-Studio</h1>
+<h1 align="center">vsIronBar Studio</h1>
 
 <p align="center">
-  <img src="vsironbar-studio.png" alt="vsIronBar-Studio" width="180"/>
+  <img src="vsironbar-studio.png" alt="vsIronBar Studio" width="180"/>
 </p>
 
-<p align="center"><strong>Version 1</strong></p>
-
+[![AUR version](https://img.shields.io/aur/version/vsironbar-studio?color=1793d1&label=AUR&logo=arch-linux)](https://aur.archlinux.org/packages/vsironbar-studio)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-vsIronBar-Studio is a visual editor for [Ironbar](https://github.com/JakeStanger/ironbar).
-It is built for people who want to assemble, style and maintain an Ironbar setup with live feedback instead of editing JSON and CSS by hand.
+vsIronBar Studio is a visual editor for [Ironbar](https://github.com/JakeStanger/ironbar) — build, style and preview your bar in real time.
 
-Version 1 focuses on fast iteration:
-
-- Live preview for bar and dock
-- Visual layout editing for left / center / right zones
-- Module forms for built-in modules, named instances and custom launchers
-- Templates, palettes and CSS token editing
-- Script editing and weather setup
-- Safe writes with automatic backups
+No more editing JSON and CSS by hand. Design your Ironbar with live feedback, templates and full module control.
 
 > Available on the AUR as [`vsironbar-studio`](https://aur.archlinux.org/packages/vsironbar-studio).
-> Single-file Python 3 + GTK3 application with WebKit-based preview.
+> Single-file Python 3 + GTK3 application.
 
 ---
 
