@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=vsIronbar Studio
+Comment=Visual configuration editor for Ironbar
+Exec=vsironbar-studio
+Icon=vsironbar-studio
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;
+Keywords=ironbar;wayland;hyprland;config;settings;bar;dock;
+StartupWMClass=vsIronbar Studio
+X-Version=1.0.0
